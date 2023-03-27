@@ -36,4 +36,8 @@ public class Square extends Rectangle{
         return "Square dengan side=" + super.getWidth() +
                 ", merupakan subclass dari " + super.toString();
     }
+
+    //Tidak perlu mengoverride method getArea() dan getPerimeter() dari class Rectangle
+    //Dikarenakan rumus getArea() dan getPerimeter dalam class Rectangle juga sesuai
+    //untuk mencari area dan perimeter untuk class Square
 }
